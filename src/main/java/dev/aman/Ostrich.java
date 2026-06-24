@@ -1,6 +1,6 @@
 package dev.aman;
 
-public class Ostrich extends Bird{
+public class Ostrich extends Bird implements FlyingDance{
     @Override
     public void eat() {
         System.out.println("Ostrich eat");
@@ -9,5 +9,10 @@ public class Ostrich extends Bird{
     @Override
     public void fly() {
         throw new UnsupportedOperationException("Ostrich don't fly");
+    }
+
+    @Override
+    public void dance() {
+        throw new UnsupportedOperationException("Ostrich don't dance");
     }
 }

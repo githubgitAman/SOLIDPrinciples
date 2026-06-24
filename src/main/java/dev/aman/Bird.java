@@ -6,7 +6,6 @@ public abstract class Bird {
 
     //Abstract methods
     public abstract void eat();
-    public abstract void fly();
     public String getName() {
         return name;
     }
