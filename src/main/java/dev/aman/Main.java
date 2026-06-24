@@ -4,8 +4,9 @@ package dev.aman;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        FlyingDance ostrich = new Ostrich();
-        //Ostrich don't fly but we are implementing FlyingDance interface
-        ostrich.fly();
+        Dance peacock = new Peacock();
+        //Now we have different interfaces for dance and fly
+        // i.e no tight coupling so it shows Dependencies Inversion Principle
+        peacock.dance();
     }
 }

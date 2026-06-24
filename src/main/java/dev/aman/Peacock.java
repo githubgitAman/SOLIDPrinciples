@@ -1,6 +1,6 @@
 package dev.aman;
 
-public class Peacock extends Bird implements FlyingDance {
+public class Peacock extends Bird implements Dance, Fly{
     @Override
     public void fly() {
         System.out.println("Peacock flying");

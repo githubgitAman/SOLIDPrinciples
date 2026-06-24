@@ -1,6 +1,6 @@
 package dev.aman;
 
-public class Ostrich extends Bird implements FlyingDance{
+public class Ostrich extends Bird implements Dance, Fly {
     @Override
     public void eat() {
         System.out.println("Ostrich eat");
